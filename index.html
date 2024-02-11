@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container min-vh-100 p-5 text-center d-flex flex-column justify-content-center  align-items-center">
+        <div class="input d-flex justify-content-center w-100 mb-4 position-relative">
+            <input type="search" id="weather" placeholder="Enter Your City" class="w-50 p-2" >
+            <i class="fa-solid fa-magnifying-glass-location icon position-absolute button" style="color: #000;"></i>
+        </div>
+        <div class="cityName">
+            <p class="fs-2 text-white">Alexandria</p>
+        </div>
+        <div class="weatherData w-50 d-flex  p-3 justify-content-around align-items-end position-relative">
+            <i class="fa-solid fa-cloud-rain position-absolute top-0 font " id="weatherStatus"></i>
+<div class="temp fs-3 mb-5 d-flex justify-content-center align-items-center">
+    <span class="px-4">10°C</span>
+    <i class="fa-solid fa-temperature-high"></i>
+</div>
+<div class="wind fs-3 mb-5 d-flex justify-content-center align-items-center">
+    <span class="px-4">50 km/h</span>
+    <i class="fa-solid fa-wind"></i>
+</div>
+<div class="hum fs-3 d-flex justify-content-center align-items-center mb-5">
+    <span class="px-4">50%</span>
+    <i class="fa-solid fa-droplet"></i>
+</div>
+        </div>
+    </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
